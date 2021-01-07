@@ -463,9 +463,8 @@ events.listen('recipes', function (e) {
     e.shapeless('quark:jungle_chest', ['minecraft:jungle_planks', '#forge:chests/wooden'])
     e.shapeless('quark:warped_chest', ['minecraft:warped_planks', '#forge:chests/wooden'])
     e.shapeless('quark:crimson_chest', ['minecraft:crimson_planks', '#forge:chests/wooden'])
-})
-	//bamboo
-	e.shapeless('thermal:bamboo_block', '#bambooeverything:bamboo_bundle')
-	e.shapeless('bambooeverything:bamboo_bundle', '#quark:bamboo_bundle')
-	e.shapeless('quark:bamboo_bundle', '#thermal:bamboo_block')
-	})
+	
+    //bamboo
+    e.shapeless('thermal:bamboo_block', '#bambooeverything:bamboo_bundle')
+    e.shapeless('bambooeverything:bamboo_bundle', '#quark:bamboo_bundle')
+    e.shapeless('quark:bamboo_bundle', '#thermal:bamboo_block')
